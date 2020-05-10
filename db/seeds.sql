@@ -1,0 +1,10 @@
+INSERT INTO toppings (meat) VALUES ('hamburger');
+INSERT INTO toppings (meat) VALUES ('beyond burger');
+INSERT INTO toppings (veggies) VALUES ('tomatoes');
+INSERT INTO toppings (veggies) VALUES ('onions');
+INSERT INTO toppings (veggies) VALUES ('lettuce');
+INSERT INTO toppings (meat) VALUES ('beyond burger');
+INSERT INTO toppings (meat, veggies) VALUES ('hamburger', lettuce);
+INSERT INTO toppings (meat, cheese) VALUES ('hamburger', true);
+INSERT INTO toppings (meat, cheese, bun) VALUES ('beyond burger', false, false);
+INSERT INTO toppings (cheese) VALUES (true);
